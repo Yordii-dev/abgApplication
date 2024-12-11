@@ -17,7 +17,7 @@
 
     @RestController
     @RequestMapping("abg-app")
-    @CrossOrigin(value = "http://localhost:3000")
+    @CrossOrigin(origins = "*")
     public class AbgControlador {
         private static final Logger logger = LoggerFactory.getLogger(AbgControlador.class);
 
